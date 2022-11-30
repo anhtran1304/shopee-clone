@@ -1748,3 +1748,22 @@
     font-size: 12px;
 }
 
+.scrollToTopBtn {
+    position: fixed;
+    right: 14px;
+    bottom: 44px;
+    z-index: 1000;
+    width: 43px;
+    height: 43px;
+    cursor: pointer;
+    user-select: none;
+    border: none;
+    outline: none;
+    background-color: white;
+    border-radius: 50%;
+    display: none;
+}
+
+.showBtn {
+    display: block;
+}
